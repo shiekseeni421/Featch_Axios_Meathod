@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Form-Main-Container{
+    background-image: linear-gradient(360deg,#00334d, #1affc6, #bfff00);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-el{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+    width: 20%;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+input{
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.button{
+    padding: 5px 10px;
+    width: 100px;
+    background-color: #3399ff;
+    border-radius: 35px;
+    border-width: 0px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #00334d;
+}
+
+.resultContiner{
+    background-color:white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.Axios-continer{
+    background-image: linear-gradient(360deg,#3e0b56, #9e5603, #850c1cdd);
+
+}
